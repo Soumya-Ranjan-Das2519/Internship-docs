@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+}
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  font-size: 150%;
+  border-radius: 5px;
+  background-color: rgb(185, 185, 155);
+  color: rgb(242, 5, 5);
+  display: inline-block;
+}
+.msg-box {
+  font-size: 120%;
+  width: 70%;
+  background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid rgb(242, 5, 5);
+  padding: 10px;
+}

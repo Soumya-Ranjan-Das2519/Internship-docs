@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Chat</title>
+  </head>
+  <body>
+    <h3>Create New Chat...</h3>
+    <form method="post" action="/chats">
+      <label>From: </label>
+      <input type="text" placeholder="who are you?" name="from" />
+      <br />
+      <label>To: </label>
+      <input type="text" placeholder="add reciver" name="to" />
+      <br />
+      <label>Message: </label>
+      <textarea
+        name="message"
+        placeholder="Write your message here..."
+      ></textarea>
+      <br />
+      <button type="submit">
+        Create Chat
+      </button>
+    </form>
+  </body>
+</html>
+
+//i want to add a cancel botton
