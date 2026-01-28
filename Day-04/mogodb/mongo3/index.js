@@ -34,7 +34,7 @@ async function main() {
 // index route
 app.get("/chats", async (req, res) => {
   let chats = await Chat.find({});
-  console.log(chats);
+  // console.log(chats);
   //   res.send("working");
   res.render("index", { chats });
 });
